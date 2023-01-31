@@ -23,6 +23,7 @@ selenium.clickAddToCart();
 Thread.sleep(2000);
 web.handleAlert();
 Thread.sleep(2000);
+web.screenshot();
 soft.assertAll();
 
 
